@@ -1,0 +1,35 @@
+object Form1: TForm1
+  Left = 3
+  Height = 882
+  Top = 175
+  Width = 1444
+  Caption = 'Form1'
+  ClientHeight = 882
+  ClientWidth = 1444
+  LCLVersion = '1.8.4.0'
+  object PaintBox1: TPaintBox
+    Left = 110
+    Height = 1462
+    Top = 10
+    Width = 1066
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 1208
+    Height = 49
+    Top = 32
+    Width = 148
+    Caption = 'Button1'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit4: TEdit
+    Left = 1275
+    Height = 23
+    Top = 190
+    Width = 1
+    TabOrder = 1
+    Text = 'Edit4'
+  end
+end
